@@ -24,7 +24,7 @@ color desert
 syntax on
 
 autocmd bufwritepost .vimrc source ~/.vimrc
-autocmd FileType ruby setlocal expandtab shiftwidth=2 tabstop=2
+autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 
 " Display space at the end
 highlight WhitespaceEOL ctermbg=red guibg=red
