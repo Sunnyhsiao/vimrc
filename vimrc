@@ -38,4 +38,5 @@ Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
 Bundle 'stephpy/vim-php-cs-fixer'
 Bundle 'tpope/vim-surround'
+Bundle 'Lokaltog/vim-powerline'
 filetype plugin indent on " required!
