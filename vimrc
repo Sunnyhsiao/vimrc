@@ -24,3 +24,10 @@ set fileencodings=ucs-bom,utf-8,big5,gb2312,latin1
 " Display space at the end
 highlight WhitespaceEOL ctermbg=red guibg=red
 match WhitespaceEOL /\s\+$/
+
+" Vundle
+filetype off " required!
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+Bundle 'gmarik/vundle'
+filetype plugin indent on     " required!
