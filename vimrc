@@ -30,4 +30,7 @@ filetype off " required!
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 Bundle 'gmarik/vundle'
+Bundle 'scrooloose/nerdtree'
+Bundle 'stephpy/vim-php-cs-fixer'
+Bundle 'tpope/vim-surround'
 filetype plugin indent on     " required!
