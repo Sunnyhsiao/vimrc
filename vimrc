@@ -7,6 +7,7 @@ set hlsearch
 set ignorecase
 set smartcase
 set wildmenu
+set backspace=2
 set laststatus=2
 
 set expandtab
@@ -26,6 +27,11 @@ syntax on
 autocmd bufwritepost .vimrc source ~/.vimrc
 autocmd FileType ruby setlocal shiftwidth=2 tabstop=2
 
+map <C-t><C-t> :tabnew<CR>
+map <C-t><C-w> :tabclose<CR>
+map <S-L> gt
+map <S-H> gT
+
 " Display space at the end
 highlight WhitespaceEOL ctermbg=red guibg=red
 match WhitespaceEOL /\s\+$/
@@ -39,4 +45,5 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'stephpy/vim-php-cs-fixer'
 Bundle 'tpope/vim-surround'
 Bundle 'Lokaltog/vim-powerline'
+Bundle 'ervandew/supertab'
 filetype plugin indent on " required!
