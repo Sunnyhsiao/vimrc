@@ -31,6 +31,8 @@ map <C-t><C-t> :tabnew<CR>
 map <C-t><C-w> :tabclose<CR>
 map <S-L> gt
 map <S-H> gT
+vnoremap < <gv
+vnoremap > >gv
 
 " Display space at the end
 highlight WhitespaceEOL ctermbg=red guibg=red
