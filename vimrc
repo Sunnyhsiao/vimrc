@@ -50,4 +50,5 @@ Bundle 'stephpy/vim-php-cs-fixer'
 Bundle 'tpope/vim-surround'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'ervandew/supertab'
+Bundle 'mattn/emmet-vim'
 filetype plugin indent on " required!
