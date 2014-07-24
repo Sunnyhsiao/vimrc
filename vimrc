@@ -51,4 +51,6 @@ Bundle 'tpope/vim-surround'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'ervandew/supertab'
 Bundle 'mattn/emmet-vim'
+Bundle 'wincent/Command-T'
+Bundle '2072/PHP-Indenting-for-VIm'
 filetype plugin indent on " required!
